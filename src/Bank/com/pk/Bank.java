@@ -18,6 +18,7 @@ public class Bank extends Account {
 	 */
 	public void addAccount(Account account) {
 		int number = 0;
+		System.out.println("our class");
 		account.getNumber(number);
 	}
 
